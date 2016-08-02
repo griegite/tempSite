@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
-    <link rel="icon" type="image/x-icon" href="images/globe.png">
+    <link rel="icon" type="image/x-icon" href="../images/globe.png">
+    <script src="https://use.fontawesome.com/01aa5a3467.js"></script>
     <title>Kevin Manion, GIS Front-End Developer</title>
   </head>
   <body>
@@ -20,7 +21,7 @@
         <ul class="nav navbar-nav pull-xs-right">
           <li class="nav-item m-r-1"><a href="#" class="nav-link">About</a></li>
           <li class="nav-item m-r-1"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-          <li class="nav-item m-r-1"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item m-r-1"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -29,7 +30,7 @@
       <div class="row p-t-3 p-b-3">
 
         <div class="col-sm-6">
-          <img src="../images/screenshotedit.jpeg" alt="Portrait Rounded of myself" class="img-fluid img-circle center-block">
+          <img src="../images/screenshotedit.jpeg" alt="Portrait Rounded of myself" class="img-fluid img-circle m-x-auto">
         </div>
         <div class="col-sm-6 center-block">
           <h1>Hi, My name is Kevin Manion</h1>
@@ -47,17 +48,19 @@
         </div>
       </div>
       <div class="row m-b-3">
-        <div class="col-sm-6">
-          <img class="img-fluid center-block" src="../images/Laptop-50.png" alt="laptop icon">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
+          <img class="img-fluid m-x-auto" src="../images/Laptop-50.png" alt="laptop icon">
           <h4 class="text-xs-center m-t-1">Front-End</h4>
           <p class="text-xs-center m-t-1">HTML, CSS, Javascript, jQuery, AJAX, Bootstrap</p>
         </div>
 
-        <div class="col-sm-6">
-          <img class="img-fluid center-block" src="../images/Earth.png" alt="laptop icon">
+        <div class="col-sm-5">
+          <img class="img-fluid m-x-auto" src="../images/Earth.png" alt="laptop icon">
           <h4 class="text-xs-center m-t-1">GIS</h4>
           <p class="text-xs-center m-t-1">ArcGIS, QGIS, GeoJSON, Mapbox GL-JS</p>
         </div>
+        <div class="col-sm-1"></div>
 
       </div>
 
@@ -69,30 +72,54 @@
         </div>
       </div>
       <div class="row portfolio p-t-3">
-        <div class="col-sm-2 m-t-3 portfolio"></div>
-        <div class="col-sm-4 portfolio m-t-3">
-
+        <div class="col-sm-1 m-t-3 portfolio"></div>
+        <div class="col-sm-5 portfolio">
+          <h3 class="text-xs-center">Primary Results</h3>
+          <a href="PrimaryMapSite/index.html"><img src="../images/mapimg.jpg" class="img-fluid m-x-auto" alt="Responsive image showing Primary Map Thumbnail"></a>
+          <p class="text-xs-center p-t-1">Primary Election Map showing results by state with interaction by the user. Built with Mapbox GL-JS</p>
         </div>
-        <div class="col-sm-4 m-t-3">
-
+        <div class="col-sm-5">
+          <h3 class="text-xs-center">Annapolis Bus Map</h3>
+          <a href="BusMap/index.html"><img src="../images/busmap.jpg" alt="Thumbnail image of Annapolis Bus Map" class="img-fluid m-x-auto"></a>
+          <p class="text-xs-center p-t-1">This map highlights Annapolis's city lines and stops using GeoJSON and Mapbox-GL-JS. (Work in Progress)</p>
         </div>
-        <div class="col-sm-2 m-t-3"></div>
+        <div class="col-sm-1 m-t-3"></div>
       </div>
       <div class="row p-t-3 portfolio">
-        <div class="col-sm-2 m-t-3"></div>
-        <div class="col-sm-4 m-t-3">
+
+
+        <div class="col-sm-1 m-t-3"></div>
+        <div class="col-sm-5 m-t-3">
+          <h3 class="text-xs-center">Twitch Streams List</h3>
+          <a href="TwitchApp/index.html"><img src="../images/twitch.jpg" class="img-fluid m-x-auto" alt="Responsive image showing Twitch App Thumbnail"></a>
+          <p class="text-xs-center p-t-1">A page showing various Twitch streams that are popular by using the Twitch JS API.</p>
+        </div>
+        <div class="col-sm-5 m-t-3">
+
 
         </div>
-        <div class="col-sm-4 m-t-3">
+        <div class="col-sm-1 m-t-3"></div>
+      </div>
+
+      <div class="row m-t-3 m-b-1" id="contact">
+        <h3 class="text-xs-center">Contact</h3>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+          <p class="text-xs-center">You can email me at kevinjmanion1@gmail.com</br>These projects are on my Github page, which are linked to right below.</p>
+          <div class="text-xs-center"><a href="http://www.github.com/Kjmanion"><button class="btn btn-secondary m-t-2 m-b-2"><i class="fa fa-github"></i> Github</button></div>
+
+          <!-- <a  href="http://www.github.com/Kjmanion" class="btn btn-secondary m-x-auto m-t-2 m-b-2"><i class=" fa fa-github" aria-hidden="true"></i> Github</a> -->
 
         </div>
-        <div class="col-sm-2 m-t-3"></div>
+        <div class="col-sm-3"></div>
+
+
       </div>
 
     </div>
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
   </body>
 </html>
