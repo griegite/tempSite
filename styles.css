@@ -9,10 +9,14 @@ body{
 }
 
 .portfolio{
-  background-color:#77CC4E;
+  background-color:#4A7F31;
 
 }
 
 a{
   style:none;
+}
+
+.nav-item{
+  color:black;
 }
