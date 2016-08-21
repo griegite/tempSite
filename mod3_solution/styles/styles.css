@@ -15,9 +15,24 @@ body{
   border-top:0px;
 }
 
+li{
+  color:black;
+}
+
+li:first-child{
+  background-color:gold;
+}
+
+li:nth-child(2){
+  background-color:lightblue;
+}
+li:last-child{
+  background-color:lightgreen;
+  padding-bottom:0;
+}
+
 #menu{
   height:1000px;
-  background-color:green;
   margin:1%;
 }
 
@@ -26,9 +41,9 @@ body{
 }
 
 #sushi{
-  background-color:blue;
+  background-color:lightblue;
 }
 
 #beef{
-  background-color:green;
+  background-color:lightgreen;
 }
