@@ -36,8 +36,17 @@ li:last-child{
   margin:1%;
 }
 
+
+
+.col-xs-12{
+  margin-top:2%;
+}
+
+
+
 #chicken{
   background-color:gold;
+
 }
 
 #sushi{
